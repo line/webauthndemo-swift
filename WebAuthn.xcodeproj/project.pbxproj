@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE47635D2B7B1554002DA6A6 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE47635C2B7B1554002DA6A6 /* Endpoint.swift */; };
+		CE47635F2B7B2DB1002DA6A6 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE47635E2B7B2DB1002DA6A6 /* Response.swift */; };
+		CE47639D2B7DAAAF002DA6A6 /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE47639C2B7DAAAF002DA6A6 /* CustomButtonStyle.swift */; };
+		CE47639F2B7DBAF9002DA6A6 /* OneSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE47639E2B7DBAF9002DA6A6 /* OneSelectionView.swift */; };
+		CE4763A92B7DF9AF002DA6A6 /* OptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4763A82B7DF9AF002DA6A6 /* OptionView.swift */; };
+		CE4763AD2B7E1C80002DA6A6 /* CredentialSourceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4763AC2B7E1C80002DA6A6 /* CredentialSourceView.swift */; };
+		CE4763B12B7F3BBA002DA6A6 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4763B02B7F3BBA002DA6A6 /* Request.swift */; };
+		CE4763B42B7F4533002DA6A6 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4763B32B7F4533002DA6A6 /* Network.swift */; };
+		CE7116672C3661A00015E0EA /* WebAuthn in Frameworks */ = {isa = PBXBuildFile; productRef = CE7116662C3661A00015E0EA /* WebAuthn */; };
+		CE71166A2C3661AF0015E0EA /* WebAuthn in Frameworks */ = {isa = PBXBuildFile; productRef = CE7116692C3661AF0015E0EA /* WebAuthn */; };
+		CE9779B62C198E1A0082AEDF /* CredentialSourceStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9779B52C198E1A0082AEDF /* CredentialSourceStorage.swift */; };
+		CE9779BD2C1A83520082AEDF /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9779BC2C1A83520082AEDF /* TitleView.swift */; };
+		CE9779BF2C1A83CC0082AEDF /* NameInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9779BE2C1A83CC0082AEDF /* NameInputView.swift */; };
+		CE9779C12C1A85240082AEDF /* AccountManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9779C02C1A85240082AEDF /* AccountManagerView.swift */; };
+		CE9779C52C1A8E7B0082AEDF /* WebAuthnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9779C42C1A8E7B0082AEDF /* WebAuthnView.swift */; };
+		CE9779C72C1A90EA0082AEDF /* ErrorMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9779C62C1A90EA0082AEDF /* ErrorMessageView.swift */; };
+		CE9779C92C1A99E00082AEDF /* HelloWorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9779C82C1A99E00082AEDF /* HelloWorldView.swift */; };
+		CE9779CB2C1A9FB60082AEDF /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9779CA2C1A9FB60082AEDF /* SignUpView.swift */; };
+		CE9779CD2C1AA0860082AEDF /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9779CC2C1AA0860082AEDF /* SignInView.swift */; };
+		CE9779D42C23FC850082AEDF /* AttestationConveyancePreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9779CE2C23FC850082AEDF /* AttestationConveyancePreference.swift */; };
+		CE9779D52C23FC850082AEDF /* AuthenticatorAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9779CF2C23FC850082AEDF /* AuthenticatorAttachment.swift */; };
+		CE9779D62C23FC850082AEDF /* AuthenticatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9779D02C23FC850082AEDF /* AuthenticatorType.swift */; };
+		CE9779D72C23FC850082AEDF /* PublicKeyCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9779D12C23FC850082AEDF /* PublicKeyCredential.swift */; };
+		CE9779D82C23FC850082AEDF /* UserVerificationRequirement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9779D22C23FC850082AEDF /* UserVerificationRequirement.swift */; };
+		CED127A02B74733A00D94DD0 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED1279F2B74733A00D94DD0 /* Main.swift */; };
+		CED127A22B74733A00D94DD0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED127A12B74733A00D94DD0 /* MainView.swift */; };
+		CED127A42B74733C00D94DD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED127A32B74733C00D94DD0 /* Assets.xcassets */; };
+		CED5E6842C2406C30024C878 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED5E6822C2406C30024C878 /* Preview Assets.xcassets */; };
+		CEF32D5D2B85DC5A001CD94A /* RelyingParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF32D5C2B85DC5A001CD94A /* RelyingParty.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE47635C2B7B1554002DA6A6 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		CE47635E2B7B2DB1002DA6A6 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		CE47639C2B7DAAAF002DA6A6 /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
+		CE47639E2B7DBAF9002DA6A6 /* OneSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneSelectionView.swift; sourceTree = "<group>"; };
+		CE4763A82B7DF9AF002DA6A6 /* OptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionView.swift; sourceTree = "<group>"; };
+		CE4763AC2B7E1C80002DA6A6 /* CredentialSourceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialSourceView.swift; sourceTree = "<group>"; };
+		CE4763B02B7F3BBA002DA6A6 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		CE4763B32B7F4533002DA6A6 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		CE9779B52C198E1A0082AEDF /* CredentialSourceStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialSourceStorage.swift; sourceTree = "<group>"; };
+		CE9779BC2C1A83520082AEDF /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		CE9779BE2C1A83CC0082AEDF /* NameInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameInputView.swift; sourceTree = "<group>"; };
+		CE9779C02C1A85240082AEDF /* AccountManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountManagerView.swift; sourceTree = "<group>"; };
+		CE9779C42C1A8E7B0082AEDF /* WebAuthnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAuthnView.swift; sourceTree = "<group>"; };
+		CE9779C62C1A90EA0082AEDF /* ErrorMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessageView.swift; sourceTree = "<group>"; };
+		CE9779C82C1A99E00082AEDF /* HelloWorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldView.swift; sourceTree = "<group>"; };
+		CE9779CA2C1A9FB60082AEDF /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		CE9779CC2C1AA0860082AEDF /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		CE9779CE2C23FC850082AEDF /* AttestationConveyancePreference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttestationConveyancePreference.swift; sourceTree = "<group>"; };
+		CE9779CF2C23FC850082AEDF /* AuthenticatorAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticatorAttachment.swift; sourceTree = "<group>"; };
+		CE9779D02C23FC850082AEDF /* AuthenticatorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticatorType.swift; sourceTree = "<group>"; };
+		CE9779D12C23FC850082AEDF /* PublicKeyCredential.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicKeyCredential.swift; sourceTree = "<group>"; };
+		CE9779D22C23FC850082AEDF /* UserVerificationRequirement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserVerificationRequirement.swift; sourceTree = "<group>"; };
+		CED1279C2B74733A00D94DD0 /* WebAuthnSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebAuthnSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED1279F2B74733A00D94DD0 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		CED127A12B74733A00D94DD0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CED127A32B74733C00D94DD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CED127A52B74733C00D94DD0 /* WebAuthn.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WebAuthn.entitlements; sourceTree = "<group>"; };
+		CED5E6822C2406C30024C878 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEF32D5C2B85DC5A001CD94A /* RelyingParty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelyingParty.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CED127992B74733A00D94DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE71166A2C3661AF0015E0EA /* WebAuthn in Frameworks */,
+				CE7116672C3661A00015E0EA /* WebAuthn in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE47639B2B7DA76E002DA6A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE47639C2B7DAAAF002DA6A6 /* CustomButtonStyle.swift */,
+				CE47639E2B7DBAF9002DA6A6 /* OneSelectionView.swift */,
+				CE4763A82B7DF9AF002DA6A6 /* OptionView.swift */,
+				CED127A12B74733A00D94DD0 /* MainView.swift */,
+				CE4763AC2B7E1C80002DA6A6 /* CredentialSourceView.swift */,
+				CE9779BC2C1A83520082AEDF /* TitleView.swift */,
+				CE9779BE2C1A83CC0082AEDF /* NameInputView.swift */,
+				CE9779C02C1A85240082AEDF /* AccountManagerView.swift */,
+				CE9779C42C1A8E7B0082AEDF /* WebAuthnView.swift */,
+				CE9779C62C1A90EA0082AEDF /* ErrorMessageView.swift */,
+				CE9779C82C1A99E00082AEDF /* HelloWorldView.swift */,
+				CE9779CA2C1A9FB60082AEDF /* SignUpView.swift */,
+				CE9779CC2C1AA0860082AEDF /* SignInView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE4763AA2B7E0266002DA6A6 /* Authn */ = {
+			isa = PBXGroup;
+			children = (
+				CE9779D32C23FC850082AEDF /* Extensions */,
+				CE9779BB2C199B1A0082AEDF /* Storage */,
+				CE4763B52B7F45BD002DA6A6 /* Network */,
+			);
+			path = Authn;
+			sourceTree = "<group>";
+		};
+		CE4763B52B7F45BD002DA6A6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CEF32D5C2B85DC5A001CD94A /* RelyingParty.swift */,
+				CE4763B32B7F4533002DA6A6 /* Network.swift */,
+				CE4763B02B7F3BBA002DA6A6 /* Request.swift */,
+				CE47635C2B7B1554002DA6A6 /* Endpoint.swift */,
+				CE47635E2B7B2DB1002DA6A6 /* Response.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CE9779BB2C199B1A0082AEDF /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				CE9779B52C198E1A0082AEDF /* CredentialSourceStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		CE9779D32C23FC850082AEDF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CE9779CE2C23FC850082AEDF /* AttestationConveyancePreference.swift */,
+				CE9779CF2C23FC850082AEDF /* AuthenticatorAttachment.swift */,
+				CE9779D02C23FC850082AEDF /* AuthenticatorType.swift */,
+				CE9779D12C23FC850082AEDF /* PublicKeyCredential.swift */,
+				CE9779D22C23FC850082AEDF /* UserVerificationRequirement.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CEB699A52BDB4286003F6738 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CED127932B74733A00D94DD0 = {
+			isa = PBXGroup;
+			children = (
+				CED5E6832C2406C30024C878 /* Preview Content */,
+				CED1279E2B74733A00D94DD0 /* Shared */,
+				CED1279D2B74733A00D94DD0 /* Products */,
+				CEB699A52BDB4286003F6738 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CED1279D2B74733A00D94DD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CED1279C2B74733A00D94DD0 /* WebAuthnSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED1279E2B74733A00D94DD0 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CE4763AA2B7E0266002DA6A6 /* Authn */,
+				CE47639B2B7DA76E002DA6A6 /* View */,
+				CED1279F2B74733A00D94DD0 /* Main.swift */,
+				CED127A32B74733C00D94DD0 /* Assets.xcassets */,
+				CED127A52B74733C00D94DD0 /* WebAuthn.entitlements */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		CED5E6832C2406C30024C878 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CED5E6822C2406C30024C878 /* Preview Assets.xcassets */,
+			);
+			name = "Preview Content";
+			path = "Shared/Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CED1279B2B74733A00D94DD0 /* WebAuthnSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED127C12B74733C00D94DD0 /* Build configuration list for PBXNativeTarget "WebAuthnSample" */;
+			buildPhases = (
+				CED127982B74733A00D94DD0 /* Sources */,
+				CED127992B74733A00D94DD0 /* Frameworks */,
+				CED1279A2B74733A00D94DD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebAuthnSample;
+			packageProductDependencies = (
+				CE7116662C3661A00015E0EA /* WebAuthn */,
+				CE7116692C3661AF0015E0EA /* WebAuthn */,
+			);
+			productName = webauthn2;
+			productReference = CED1279C2B74733A00D94DD0 /* WebAuthnSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CED127942B74733A00D94DD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CED1279B2B74733A00D94DD0 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = CED127972B74733A00D94DD0 /* Build configuration list for PBXProject "WebAuthn" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CED127932B74733A00D94DD0;
+			packageReferences = (
+				CE7116682C3661AF0015E0EA /* XCLocalSwiftPackageReference "../webauthn-swift" */,
+			);
+			productRefGroup = CED1279D2B74733A00D94DD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CED1279B2B74733A00D94DD0 /* WebAuthnSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CED1279A2B74733A00D94DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED5E6842C2406C30024C878 /* Preview Assets.xcassets in Resources */,
+				CED127A42B74733C00D94DD0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CED127982B74733A00D94DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9779D42C23FC850082AEDF /* AttestationConveyancePreference.swift in Sources */,
+				CE9779C52C1A8E7B0082AEDF /* WebAuthnView.swift in Sources */,
+				CED127A22B74733A00D94DD0 /* MainView.swift in Sources */,
+				CE4763B42B7F4533002DA6A6 /* Network.swift in Sources */,
+				CE9779CB2C1A9FB60082AEDF /* SignUpView.swift in Sources */,
+				CE9779CD2C1AA0860082AEDF /* SignInView.swift in Sources */,
+				CED127A02B74733A00D94DD0 /* Main.swift in Sources */,
+				CE9779B62C198E1A0082AEDF /* CredentialSourceStorage.swift in Sources */,
+				CE4763A92B7DF9AF002DA6A6 /* OptionView.swift in Sources */,
+				CE9779BF2C1A83CC0082AEDF /* NameInputView.swift in Sources */,
+				CE9779C92C1A99E00082AEDF /* HelloWorldView.swift in Sources */,
+				CE4763B12B7F3BBA002DA6A6 /* Request.swift in Sources */,
+				CE47639F2B7DBAF9002DA6A6 /* OneSelectionView.swift in Sources */,
+				CEF32D5D2B85DC5A001CD94A /* RelyingParty.swift in Sources */,
+				CE47639D2B7DAAAF002DA6A6 /* CustomButtonStyle.swift in Sources */,
+				CE9779BD2C1A83520082AEDF /* TitleView.swift in Sources */,
+				CE9779D72C23FC850082AEDF /* PublicKeyCredential.swift in Sources */,
+				CE47635D2B7B1554002DA6A6 /* Endpoint.swift in Sources */,
+				CE4763AD2B7E1C80002DA6A6 /* CredentialSourceView.swift in Sources */,
+				CE9779C12C1A85240082AEDF /* AccountManagerView.swift in Sources */,
+				CE9779C72C1A90EA0082AEDF /* ErrorMessageView.swift in Sources */,
+				CE9779D82C23FC850082AEDF /* UserVerificationRequirement.swift in Sources */,
+				CE47635F2B7B2DB1002DA6A6 /* Response.swift in Sources */,
+				CE9779D52C23FC850082AEDF /* AuthenticatorAttachment.swift in Sources */,
+				CE9779D62C23FC850082AEDF /* AuthenticatorType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CED127BF2B74733C00D94DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CED127C02B74733C00D94DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CED127C22B74733C00D94DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Shared/WebAuthn.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Shared/Preview Content\"";
+				DEVELOPMENT_TEAM = 3J4XQ9CMZW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lycorp.webauthn.sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CED127C32B74733C00D94DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Shared/WebAuthn.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Shared/Preview Content\"";
+				DEVELOPMENT_TEAM = 3J4XQ9CMZW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lycorp.webauthn.sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CED127972B74733A00D94DD0 /* Build configuration list for PBXProject "WebAuthn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED127BF2B74733C00D94DD0 /* Debug */,
+				CED127C02B74733C00D94DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED127C12B74733C00D94DD0 /* Build configuration list for PBXNativeTarget "WebAuthnSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED127C22B74733C00D94DD0 /* Debug */,
+				CED127C32B74733C00D94DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		CE7116682C3661AF0015E0EA /* XCLocalSwiftPackageReference "../webauthn-swift" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../webauthn-swift";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE7116662C3661A00015E0EA /* WebAuthn */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WebAuthn;
+		};
+		CE7116692C3661AF0015E0EA /* WebAuthn */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WebAuthn;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CED127942B74733A00D94DD0 /* Project object */;
+}

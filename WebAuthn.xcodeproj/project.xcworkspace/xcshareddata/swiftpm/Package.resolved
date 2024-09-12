@@ -1,0 +1,15 @@
+{
+  "originHash" : "e0ab2f82b897d57d80f9d694dc4721d6053d4d816e77e70ae072941cde0a6183",
+  "pins" : [
+    {
+      "identity" : "swiftcbor",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/valpackett/SwiftCBOR.git",
+      "state" : {
+        "revision" : "edc01765cf6b3685bb622bb09242ef5964fb991b",
+        "version" : "0.4.6"
+      }
+    }
+  ],
+  "version" : 3
+}
